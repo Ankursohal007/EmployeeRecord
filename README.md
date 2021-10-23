@@ -1,6 +1,6 @@
 # Employee Master with fireabse login
 
-It's a project to add employee record with all CRUD operation.
+It's a project to add employee record with all CRUD operation.Project include firebase login and SQLite database with using provider state management.
 
 ## Setup
 Create google-services.json for android and GoogleService-Info.plist for IOS and add in their respective folders.
