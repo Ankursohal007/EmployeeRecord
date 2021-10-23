@@ -1,16 +1,18 @@
-# employee_master
+# Employee Master with fireabse login
 
-A new Flutter project.
+It's a project to add employee record with all CRUD operation.
 
-## Getting Started
+## Setup
+Create google-services.json for android and GoogleService-Info.plist for IOS and add in their respective folders.
 
-This project is a starting point for a Flutter application.
+## Preview
 
-A few resources to get you started if this is your first Flutter project:
+# Android
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+![android 1](https://user-images.githubusercontent.com/89975680/138558687-c79661c1-bc06-4ee9-a7d6-6b5968472d80.gif)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![android_2](https://user-images.githubusercontent.com/89975680/138558689-8b6f8adf-f7d6-4b85-85ea-7bece103d703.gif)
+
+# IOS
+
+![ios](https://user-images.githubusercontent.com/89975680/138558694-31053c89-b1a5-4162-80df-07d7ea8cc269.gif)
