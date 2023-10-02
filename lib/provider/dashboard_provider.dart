@@ -68,7 +68,7 @@ class DashBoardProvider with ChangeNotifier {
         ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
           padding: EdgeInsets.all(12.0),
           content:
-              Text(ConstString.errorInserting),
+          Text(ConstString.errorInserting),
           duration: Duration(seconds: 2),
         ));
       } else {
@@ -288,7 +288,7 @@ class DashBoardProvider with ChangeNotifier {
             DataCell(Text(dashboardData.columnRemark)),
           ],
           selected: dashboardData.isSelected,
-          
+
           onSelectChanged: _isEditable
               ? null
               : (val) {
