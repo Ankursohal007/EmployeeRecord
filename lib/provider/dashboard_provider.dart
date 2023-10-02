@@ -68,7 +68,7 @@ class DashBoardProvider with ChangeNotifier {
         ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
           padding: EdgeInsets.all(12.0),
           content:
-              Text(ConstString.errorInserting),
+          Text(ConstString.errorInserting),
           duration: Duration(seconds: 2),
         ));
       } else {
@@ -203,13 +203,13 @@ class DashBoardProvider with ChangeNotifier {
 
   showAlertDialog(BuildContext context) {
     // set up the buttons
-    Widget cancelButton = FlatButton(
+    Widget cancelButton = ElevatedButton(
       child: const Text(ConstString.cancel, style:  TextStyle(color: CentralizeColor.blueHI)),
       onPressed: () {
         Navigator.pop(context);
       },
     );
-    Widget continueButton = FlatButton(
+    Widget continueButton = ElevatedButton(
       child: const Text(ConstString.logout, style: TextStyle(color: CentralizeColor.orange)),
       onPressed: () {
         Navigator.pushNamedAndRemoveUntil(context, RouteName.initialRoute, (route) => false);
@@ -288,7 +288,7 @@ class DashBoardProvider with ChangeNotifier {
             DataCell(Text(dashboardData.columnRemark)),
           ],
           selected: dashboardData.isSelected,
-          
+
           onSelectChanged: _isEditable
               ? null
               : (val) {
