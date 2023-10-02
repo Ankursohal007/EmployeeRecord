@@ -203,13 +203,13 @@ class DashBoardProvider with ChangeNotifier {
 
   showAlertDialog(BuildContext context) {
     // set up the buttons
-    Widget cancelButton = FlatButton(
+    Widget cancelButton = ElevatedButton(
       child: const Text(ConstString.cancel, style:  TextStyle(color: CentralizeColor.blueHI)),
       onPressed: () {
         Navigator.pop(context);
       },
     );
-    Widget continueButton = FlatButton(
+    Widget continueButton = ElevatedButton(
       child: const Text(ConstString.logout, style: TextStyle(color: CentralizeColor.orange)),
       onPressed: () {
         Navigator.pushNamedAndRemoveUntil(context, RouteName.initialRoute, (route) => false);
